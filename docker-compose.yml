@@ -11,7 +11,6 @@ services:
             - php
 
     composer_installation:
-        container_name: composer_installation
         image: composer
         volumes:
         - ./php:/app
