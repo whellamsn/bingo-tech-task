@@ -22,6 +22,8 @@ Please add your notes and instructions to SUBMISSION-README.md in the root direc
 
 1. docker-compose up
 
+On the first run you will need to wait for the composer_installation container to finish. On subsequent runs the vendor modules are there already so it should complete immediately.
+
 This should spin up a PHP JSON game api available on http://localhost:8080
 
 Hit the endpoint for brief instructions on how to use the API.
