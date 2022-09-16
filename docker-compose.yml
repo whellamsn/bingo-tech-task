@@ -1,0 +1,23 @@
+version: '3'
+services:
+    web:
+        image: nginx:latest
+        ports:
+            - "8080:80"
+        volumes:
+            - ./php:/code
+            - ./config/site.conf:/etc/nginx/conf.d/default.conf
+        links:
+            - php
+
+    composer_installation:
+        container_name: composer_installation
+        image: composer
+        volumes:
+        - ./php:/app
+        command: composer install
+
+    php:
+        image: php:8-fpm
+        volumes:
+            - ./php:/code
