@@ -56,6 +56,7 @@ This page needs to diplay the following information:
 
 There needs to be a way to launch the game(s) from the list and info page. The game launcher will be added later, but you should hit /game/launcher/{game-slug}
 
+Ideally your pages will use a clean, appropriate layout and presentation. This is not a design task, but being able make something functional and easy to navigate is appreciated.
 
 ## Things to Consider
 
