@@ -50,7 +50,6 @@ The game info page needs to diplay the following information:
 * Return to player (RTP) (this is a percentage)
 * Bonus round
 * Price from & to (this value is in pence)
-* Whether the game has a jackpot
 * Instructions
 * T&Cs
 * Game image
