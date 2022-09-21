@@ -11,6 +11,7 @@ return function (App $app) {
         'bingo-slingo' => [
             'Slug' => 'bingo-slingo',
             'Name' => 'Bingo Slingo',
+            'Category' => 'slingo',
             'RTP' => 95,
             'Description' => 'Slingo and bingo, check it out!',
             'Bonus Rounds' => 2,
@@ -24,6 +25,7 @@ return function (App $app) {
         'bingo-slingo-starburst' => [
             'Slug' => 'bingo-slingo-starburst',
             'Name' => 'Bingo Slingo Starburst',
+            'Category' => 'slingo',
             'RTP' => 96,
             'Description' => 'Slingo and bingo with a Starburst twist, check it out!',
             'Bonus Rounds' => 3,
@@ -37,6 +39,7 @@ return function (App $app) {
         'bingo-lucky-jackpot' => [
             'Slug' => 'bingo-lucky-jackpot',
             'Name' => 'Bingo Lucky Jackpot',
+            'Category' => 'jackpot',
             'RTP' => 96,
             'Description' => 'Get lucky with lucky with an additional jackpot!',
             'Bonus Rounds' => 5,
