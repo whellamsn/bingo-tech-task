@@ -11,7 +11,7 @@ services:
             - php
 
     composer_installation:
-        image: composer
+        image: composer:2.2.3
         volumes:
         - ./php:/app
         command: composer install
